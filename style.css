@@ -1,0 +1,44 @@
+.card {
+  color: #dada2b;
+  text-align: center;
+  height: 110px;
+  width: 150px;
+  margin: auto;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(rgb(163, 43, 109), rgb(204, 42, 42));
+}
+
+
+.container {
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  height: 620px;
+  width: 600px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px;
+  z-index: 20;
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+
+.drum-pad {
+
+  color: #363632;
+  background: rgb(216, 63, 63);
+  font-size: 100px;
+  font-weight: 500;
+}
+
+#display {
+  color: rgb(207, 40, 40);
+  background-color: black;
+}
